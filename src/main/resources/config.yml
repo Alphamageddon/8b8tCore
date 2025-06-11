@@ -1,4 +1,4 @@
-#8b8tCore Version 1.4.7
+#6b6tCore Version 1.4.7
 AntiIllegal:
   Enabled: true
   EnableIllegalBlocksCleaner: false
@@ -52,7 +52,7 @@ ChatControl:
     - 'Entra'
     - '89,35'
     - 'JOIN'
-    - 'fuck 8b8t'
+    - 'fuck 6b6t'
     - 'mc.latinomc.tk'
     - 'AnarchyLatam.ploudos.me'
     - 'anarchyvn.net'
@@ -166,13 +166,13 @@ Patch:
     StrictMaxVLS: 70 #How many redstone operations per second can happen in strict mode
     RegularMaxVLS: 20000 #How many redstone operations per second can happen in regular mode
 Commands:
-  Discord: '&3Join us on discord at&r&a https://discord.8b8t.me'
-  Matrix: '&3Join us on matrix at&r&a https://matrix.8b8t.me'
+  Discord: '&3Join us on discord at&r&a https://discord.6b6t.me'
+  Matrix: '&3Join us on matrix at&r&a https://matrix.6b6t.me'
 OpUsersWhiteList:
   - 'Leee'
   - 'cubebuilder_'
   - 'Minelord9000'
-prefix: '&8[&98b&78t&8]'
+prefix: '&8[&96b&76t&8]'
 PluginColors:
   color_primary: '&9'
   color_secondary: '&7'

@@ -68,12 +68,6 @@ public class HomeCommand implements TabExecutor {
 
     private int getMaxDistanceFromSpawn(Player player) {
         Map<String, Integer> distanceMap = Map.of(
-                "home.spawn.donator6", 0,
-                "home.spawn.donator5", 2000,
-                "home.spawn.donator4", 4000,
-                "home.spawn.donator3", 6000,
-                "home.spawn.donator2", 8000,
-                "home.spawn.donator1", 10000,
                 "home.spawn.voter", 15000
         );
 

@@ -52,10 +52,10 @@ leave_message: "&c▼&8 プレイヤー &7%s&r&8 が退出しました。"
 kick_message: "&7%s が \"%s\" の理由でキックされました"
 could_not_translate_message: "メッセージの翻訳に失敗しました: %s"
 message_auto_translated: "このメッセージは自動的に翻訳されました。\n\n元のテキスト: %s"
-welcome_message: "&38b8tへようこそ"
+welcome_message: "&36b6tへようこそ"
 vote_announcement: "&c%s &8は%prefix% &8に投票し、無料の/nc 2つの追加レンダリング距離と5つの追加住宅が与えられました"
 vote_thanks: "&8%prefix% に投票していただきありがとうございます。&8 追加のレンダリング距離 2 つと追加の住宅 5 つが無料で付与されました。"
-vote_info: "&8%prefix% &8への投票は &chttps://votefor.8b8t.me でできます"
+vote_info: "&8%prefix% &8への投票は &chttps://votefor.6b6t.me でできます"
 tpa_syntax: "&cテレポートするプレイヤーを指定してください。 /tpa <player>"
 tpa_player_not_online: "&cプレイヤー %s はオンラインではありません"
 tpa_no_request_found: "&cTPAリクエストが見つかりません"
@@ -90,7 +90,7 @@ repair_no_item: "&c修理するアイテムを手に持っている必要があ�
 repair_not_repairable: "&cこのアイテムは修理できません。"
 repair_all_success: "&3インベントリ内のすべてのアイテムが正常に修理されました！"
 nick_success: "&3完了しました! あなたのニックネームは &3%s&r&3 です。"
-nick_no_permission: "&cこのコマンドはDONOR5専用です &3https://donate.8b8t.me/&c。"
+nick_no_permission: "&cYou do not have permission to use this command."
 nick_no_name_provided: "&cニックネームを入力する必要があります &3/nick <nickname>&c。"
 nick_user_protection: "&cニックネームはあなたのユーザー名と同じでなければなりません &3/nick <nickname>&c。"
 nc_success: "&3完了しました! あなたのニックネームは &3%s&r&3 です。"
@@ -98,13 +98,13 @@ nc_no_permission: "&cこのコマンドを使用するには投票する必要�
 nc_invalid_color: "&cリストにあるスタイルだけを使用できます &3/nc <color> <styles...>&c。"
 nc_usage: "&c少なくとも色を入力する必要があります &3/nc <color> <styles...>&c。"
 ic_success: "&3完了しました! あなたのアイテムの名前は &3%s&r&3 です。"
-ic_no_permission: "&cこのコマンドはDONOR4専用です &3https://donate.8b8t.me/&c。"
+ic_no_permission: "&cYou do not have permission to use this command."
 ic_invalid_color: "&cリストにあるスタイルだけを使用できます &3/ic <color> <styles...>&c。"
 ic_invalid_item: "&cこのアイテムは無効です。"
 ic_no_item: "&c色を変更するには手にアイテムを持っている必要があります。"
 ic_usage: "&c少なくとも色を入力する必要があります &3/ic <color> <styles...>&c。"
 rename_success: "&3完了しました! あなたのアイテムの名前は &3%s&r&3 です。"
-rename_no_permission: "&cこのコマンドはDONOR5専用です &3https://donate.8b8t.me/&c。"
+rename_no_permission: "&cYou do not have permission to use this command."
 rename_invalid_item: "&cこのアイテムは無効です。"
 rename_no_item: "&c色を変更するには手にアイテムを持っている必要があります。"
 rename_no_name_provided: "&c名前を入力する必要があります &3/rename <item name>&c。"
@@ -139,7 +139,7 @@ table_invalid_type: "&c無効なテーブルタイプです。有効なオプシ
 #Complex messages
 HelpMessage:
   - '&1--------------------------------------'
-  - '&8ルールを読むために &chttps://www.8b8t.me/terms &8を訪問してください'
+  - '&8ルールを読むために &chttps://www.6b6t.me/terms &8を訪問してください'
   - '&1--------------コマンド----------------'
   - '&c/tpa &8他のプレイヤーにテレポートします'
   - '&c/tpahere &8プレイヤーを自分の位置にテレポートします'
@@ -152,9 +152,9 @@ HelpMessage:
   - '&c/delhome &8設定したホームを削除します'
   - '&c/home &8設定したホームにテレポートします'
   - '&c/skin set &8スキンを設定します'
-  - '&c/vote &8 8b8tに投票します'
-  - '&c/discord &88b8tのDiscordサーバーに招待を受け取ります'
-  - '&c/matrix &88b8t の Matrix ルームへのリンクを取得するには'
+  - '&c/vote &8 6b6tに投票します'
+  - '&c/discord &86b6tのDiscordサーバーに招待を受け取ります'
+  - '&c/matrix &86b6t の Matrix ルームへのリンクを取得するには'
   - '&c/kill &8自殺します'
   - '&c/ignore &8他のプレイヤーを無視します'
   - '&c/unignore &8他のプレイヤーを無視解除します'
@@ -163,36 +163,36 @@ HelpMessage:
   - '&c/changepass &8パスワードを変更します'
   - '&c/joindate &8自分や他のプレイヤーの参加日を表示します'
   - '&c/worldstats &8ワールドのサイズを表示します'
-  - '&c/pvp &8 8b8tのPVPサーバーに接続します'
+  - '&c/pvp &8 6b6tのPVPサーバーに接続します'
   - '&c/lobby &8ロビーに接続します'
   - '&c/tpsinfo &8サーバーのTPSを確認します'
   - '&1-------------投票者のみ---------------'
   - '&c/nc &8名前の色を設定します'
-  - '&8投票するには &chttps://votefor.8b8t.me &8を訪問してください'
+  - '&8投票するには &chttps://votefor.6b6t.me &8を訪問してください'
   - '&1------------寄付者のみ--------------'
   - '&c/ic &8アイテムの色を設定します'
   - '&c/rename &8アイテムの名前を変更します'
   - '&c/seen &8プレイヤーが最後にログインした時間を表示します'
   - '&c/echest &8自分のエンダーチェストを開きます'
   - '&c/nick &8ニックネームを設定します'
-  - '&8寄付するには &chttps://donate.8b8t.me &8を訪問してください'
+  - '&8寄付するには &chttps://donate.6b6t.me &8を訪問してください'
   - '&1--------------------------------------'
 TabList:
   Header:
     - ''
     - '&9&l8builders&7&l8tools'
     - ''
-    - '&r&c&o8b8t.me を楽しんでいますか？寄付は https://donate.8b8t.me でどうぞ'
+    - '&r&c&o6b6t.me を楽しんでいますか？寄付は https://donate.6b6t.me でどうぞ'
     - ''
 
   Footer:
     - ''
     - '&7tps:&r %tps% &7ping: &r%ping% &7players: &f%players% &7uptime: &r%uptime%'
     - ''
-    - '&7連絡先: contact@8b8t.me'
-    - '&7ディスカッション: https://matrix.8b8t.me'
-    - '&7ウェブサイト: https://www.8b8t.me'
-    - '&7これが公式の8b8tウェブサイトと連絡先です'
+    - '&7連絡先: contact@6b6t.me'
+    - '&7ディスカッション: https://matrix.6b6t.me'
+    - '&7ウェブサイト: https://www.6b6t.me'
+    - '&7これが公式の6b6tウェブサイトと連絡先です'
     - ''
 TpsMessage:
   - '&1------------TPS情報------------'
@@ -203,8 +203,8 @@ TpsMessage:
 tps_failed: '&cTPSを確認する権限がありません'
 
 announcements:
-  - "%prefix% &7>>&r&8 <red><hover:show_text:'<gray>リンクを開くにはクリック'><click:open_url:'https://votefor.8b8t.me'>https://votefor.8b8t.me</click></hover></red> にアクセスして、2つの追加レンダリング距離と5つの無料のホームを受け取るために投票しましょう</dark_gray>"
-  - "%prefix% &7>>&r&8 8b8tをサポートするために<red><hover:show_text:'<gray>リンクを開くにはクリック'><click:open_url:'https://donate.8b8t.me'>https://donate.8b8t.me</click></hover></red>で寄付しましょう"
+  - "%prefix% &7>>&r&8 <red><hover:show_text:'<gray>リンクを開くにはクリック'><click:open_url:'https://votefor.6b6t.me'>https://votefor.6b6t.me</click></hover></red> にアクセスして、2つの追加レンダリング距離と5つの無料のホームを受け取るために投票しましょう</dark_gray>"
+  - "%prefix% &7>>&r&8 6b6tをサポートするために<red><hover:show_text:'<gray>リンクを開くにはクリック'><click:open_url:'https://donate.6b6t.me'>https://donate.6b6t.me</click></hover></red>で寄付しましょう"
 
 # Death messages
 global-pvp-death-messages:

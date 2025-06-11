@@ -52,10 +52,10 @@ leave_message: "&c▼&8 El jugador &7%s&r&8 Salió."
 kick_message: "&7%s fue pateado para \"%s\""
 could_not_translate_message: "Error al traducir el mensaje debido a %s"
 message_auto_translated: "Este mensaje se ha traducido automáticamente.\n\nTexto original: %s"
-welcome_message: "Bienvenido a 8b8t"
+welcome_message: "Bienvenido a 6b6t"
 vote_announcement: "&c%s &8votó por %prefix% &8y se le otorgaron 2 distancias de renderizado adicionales y 5 hogares adicionales gratis /nc"
 vote_thanks: "&8Gracias por votar por %prefix% &8se le han otorgado 2 distancias de renderizado adicionales y 5 hogares adicionales de forma gratuita."
-vote_info: "&8Puedes votar por %prefix% &8en &chttps://votefor.8b8t.me"
+vote_info: "&8Puedes votar por %prefix% &8en &chttps://votefor.6b6t.me"
 tpa_syntax: "&cPor favor incluye un jugador para teletransportarse a el /tpa <player>"
 tpa_player_not_online: "&cEl jugador %s no está en línea"
 tpa_no_request_found: "&cNo se encontró ninguna solicitud de TPA"
@@ -90,7 +90,7 @@ repair_no_item: "&cDebes de tener un item para reparar en la mano."
 repair_not_repairable: "&cEste item no es reparable."
 repair_all_success: "&3Los items de tu inventario fueron reparados exitosamente!"
 nick_success: "&3Hecho! Ahora tu nickname es &3%s&r&3."
-nick_no_permission: "&cEste comando es exclusivo para DONOR5 &3https://donate.8b8t.me/&c."
+nick_no_permission: "&cYou do not have permission to use this command."
 nick_no_name_provided: "&cDebes ingresar un nickname &3/nick <nickname>&c."
 nick_user_protection: "&cEl nickname debe ser igual a tu usuario &3/nick <nickname>&c."
 nc_success: "&3Hecho! Ahora tu nickname es &3%s&r&3."
@@ -98,13 +98,13 @@ nc_no_permission: "&cDebes haber votado para poder usar este comando."
 nc_invalid_color: "&cSolo puedes usar los estilos de la lista &3/nc <color> <styles...>&c."
 nc_usage: "&cDebes ingresar almenos el color &3/nc <color> <styles...>&c."
 ic_success: "&3Hecho! Ahora tu item se llama &3%s&r&3."
-ic_no_permission: "&cEste comando es exclusivo para DONOR4 &3https://donate.8b8t.me/&c."
+ic_no_permission: "&cYou do not have permission to use this command."
 ic_invalid_color: "&cSolo puedes usar los estilos de la lista &3/ic <color> <styles...>&c."
 ic_invalid_item: "&cEste item no es valido."
 ic_no_item: "&cDebes tener un item en la mano para poder cambiar el color."
 ic_usage: "&cDebes ingresar almenos el color &3/ic <color> <styles...>&c."
 rename_success: "&3Hecho! Ahora tu item se llama &3%s&r&3."
-rename_no_permission: "&cEste comando es exclusivo para DONOR5 &3https://donate.8b8t.me/&c."
+rename_no_permission: "&cYou do not have permission to use this command."
 rename_invalid_item: "&cEste item no es valido."
 rename_no_item: "&cDebes tener un item en la mano para poder cambiar el color."
 rename_no_name_provided: "&cDebes ingresar un nombre &3/rename <item name>&c."
@@ -139,7 +139,7 @@ table_invalid_type: "&cTipo de mesa no válido. Usa el tab-complete para ver las
 #Complex messages
 HelpMessage:
   - '&1--------------------------------------'
-  - '&8Visita &chttps://www.8b8t.me/terms &8para leer las reglas'
+  - '&8Visita &chttps://www.6b6t.me/terms &8para leer las reglas'
   - '&1--------------Comandos----------------'
   - '&c/tpa &8para teletransportarte a otro jugador'
   - '&c/tpahere &8teletransporta a un jugador a tu ubicación'
@@ -152,9 +152,9 @@ HelpMessage:
   - '&c/delhome &8para eliminar una home que has establecido'
   - '&c/home &8para teletransportarte a una home que has establecido'
   - '&c/skin set &8para establecer tu skin'
-  - '&c/vote &8para votar por 8b8t'
-  - '&c/discord &8obtén una invitación al Discord de 8b8t'
-  - '&c/matrix &8para obtener el link a la sala de Matrix de 8b8t'
+  - '&c/vote &8para votar por 6b6t'
+  - '&c/discord &8obtén una invitación al Discord de 6b6t'
+  - '&c/matrix &8para obtener el link a la sala de Matrix de 6b6t'
   - '&c/kill &8para suicidarte'
   - '&c/ignore &8para ignorar a otros jugadores'
   - '&c/unignore &8para dejar de ignorar a otros jugadores'
@@ -163,36 +163,36 @@ HelpMessage:
   - '&c/changepass &8para cambiar tu contraseña'
   - '&c/joindate &8ver la fecha de unión tuya y de otros'
   - '&c/worldstats &8ver el tamaño del mundo'
-  - '&c/pvp &8conéctate al servidor PVP de 8b8t'
+  - '&c/pvp &8conéctate al servidor PVP de 6b6t'
   - '&c/lobby &8conéctate al lobby'
   - '&c/tpsinfo &8para verificar los ticks por segundo del servidor'
   - '&1-------------Solo para Votantes---------------'
   - '&c/nc &8para establecer el color del nombre'
-  - '&8Visita &chttps://votefor.8b8t.me &8para votar'
+  - '&8Visita &chttps://votefor.6b6t.me &8para votar'
   - '&1------------Solo para Donadores--------------'
   - '&c/ic &8para establecer el color del item'
   - '&c/rename &8renombra un item'
   - '&c/seen &8ver cuándo un jugador se conectó por última vez'
   - '&c/echest &8abrir tu cofre de ender'
   - '&c/nick &8establecer un apodo'
-  - '&8Visita &chttps://donate.8b8t.me &8para donar'
+  - '&8Visita &chttps://donate.6b6t.me &8para donar'
   - '&1--------------------------------------'
 TabList:
   Header:
     - ''
     - '&9&l8builders&7&l8tools'
     - ''
-    - '&r&c&o¿Te gusta 8b8t.me? Considera hacer una donación en https://donate.8b8t.me'
+    - '&r&c&o¿Te gusta 6b6t.me? Considera hacer una donación en https://donate.6b6t.me'
     - ''
 
   Footer:
     - ''
     - '&7tps:&r %tps% &7ping: &r%ping% &7jugadores: &f%players% &7tiempo en línea: &r%uptime%'
     - ''
-    - '&7Contacto: contact@8b8t.me'
-    - '&7Discusión: https://matrix.8b8t.me'
-    - '&7Sitio web: https://www.8b8t.me'
-    - '&7Estos son los únicos sitios web y contactos oficiales de 8b8t.'
+    - '&7Contacto: contact@6b6t.me'
+    - '&7Discusión: https://matrix.6b6t.me'
+    - '&7Sitio web: https://www.6b6t.me'
+    - '&7Estos son los únicos sitios web y contactos oficiales de 6b6t.'
     - ''
 TpsMessage:
   - '&1------------Información de TPS------------'
@@ -203,8 +203,8 @@ TpsMessage:
 tps_failed: '&cUsted no tiene permitido consultar los TPS'
 
 announcements:
-  - "%prefix% &7>>&r&8 Visita <red><hover:show_text:'<gray>Clic para abrir el enlace'><click:open_url:'https://votefor.8b8t.me'>https://votefor.8b8t.me</click></hover></red> <dark_gray>y vota para recibir 2 distancias de renderizado adicionales y 5 homes adicionales gratis</dark_gray>"
-  - "%prefix% &7>>&r&8 Done para apoyar a 8b8t en <red><hover:show_text:'<gray>Clic para abrir el enlace'><click:open_url:'https://donate.8b8t.me'>https://donate.8b8t.me</click></hover></red>"
+  - "%prefix% &7>>&r&8 Visita <red><hover:show_text:'<gray>Clic para abrir el enlace'><click:open_url:'https://votefor.6b6t.me'>https://votefor.6b6t.me</click></hover></red> <dark_gray>y vota para recibir 2 distancias de renderizado adicionales y 5 homes adicionales gratis</dark_gray>"
+  - "%prefix% &7>>&r&8 Done para apoyar a 6b6t en <red><hover:show_text:'<gray>Clic para abrir el enlace'><click:open_url:'https://donate.6b6t.me'>https://donate.6b6t.me</click></hover></red>"
 
 # Death messages
 global-pvp-death-messages:
