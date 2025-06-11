@@ -67,11 +67,11 @@ ChatControl:
     - 'ＳｎｏｗＡｎａｒｃｈｙ,ｏｒg'
     - 'chad-sigma-topg'
     - '3b3t,shock,gg'
+    - 'jonarchy'
     - '3b3t'
     - '3B3T'
     - 'DeathAnarchy.nether-zone.com'
     - '9b9t'
-    - 'discord'
   CommandWhitelist:
     - '/ic'
     - '/nc'
@@ -196,7 +196,4 @@ ZombieDupe:
 DonkeyDupe:
   enabled: true
 RestrictedMapIDs:
-  - 1366
-  - 1261
-  - 1537
-  - 1288
+  - 6969
