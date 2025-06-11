@@ -55,7 +55,7 @@ message_auto_translated: "此消息已被自动翻译。\n\n原文: %s"
 welcome_message: "&3欢迎来到 6b6t"
 vote_announcement: "&c%s &8投票支持 %prefix% &8并免费获得 /nc 2 个额外渲染距离和 5 个额外住宅"
 vote_thanks: "&8感谢您投票支持%prefix% &8您已获得免费/nc 2 额外渲染距离和 5 额外住宅"
-vote_info: "&8您可以在 &chttps://votefor.6b6t.me &8为%prefix% 投票"
+vote_info: "&8您可以在 &chttps://votefor.6b6t.com &8为%prefix% 投票"
 tpa_syntax: "&c请包括一个玩家以进行tpa。/tpa <玩家>"
 tpa_player_not_online: "&c玩家 %s 不在线"
 tpa_no_request_found: "&c未找到TPA请求"
@@ -139,7 +139,7 @@ table_invalid_type: "&c无效的表格类型。请使用 tab 补全查看有效�
 # 复杂信息
 HelpMessage:
   - '&1--------------------------------------'
-  - '&8访问 &chttps://www.6b6t.me/terms &8阅读规则'
+  - '&8访问 &chttps://www.6b6t.com/terms &8阅读规则'
   - '&1--------------命令----------------'
   - '&c/tpa &8将你传送到另一个玩家那里'
   - '&c/tpahere &8将玩家传送到你的当前位置'
@@ -168,30 +168,30 @@ HelpMessage:
   - '&c/tpsinfo &8检查服务器的每秒tick数'
   - '&1-------------仅限投票者---------------'
   - '&c/nc &8设置名字颜色'
-  - '&8访问 &chttps://votefor.6b6t.me &8进行投票'
+  - '&8访问 &chttps://votefor.6b6t.com &8进行投票'
   - '&1------------仅限捐赠者--------------'
   - '&c/ic &8设置物品颜色'
   - '&c/rename &8重命名物品'
   - '&c/seen &8查看玩家最后一次上线时间'
   - '&c/echest &8打开你的末影箱'
   - '&c/nick &8设置昵称'
-  - '&8访问 &chttps://donate.6b6t.me &8进行捐赠'
+  - '&8访问 &chttps://donate.6b6t.com &8进行捐赠'
   - '&1--------------------------------------'
 TabList:
   Header:
     - ''
     - '&9&l8builders&7&l8tools'
     - ''
-    - '&r&c&o喜欢 6b6t.me 吗？考虑在 https://donate.6b6t.me 捐款'
+    - '&r&c&o喜欢 6b6t.com 吗？考虑在 https://donate.6b6t.com 捐款'
     - ''
 
   Footer:
     - ''
     - '&7tps:&r %tps% &7ping: &r%ping% &7玩家: &f%players% &7在线时间: &r%uptime%'
     - ''
-    - '&7联系: contact@6b6t.me'
-    - '&7讨论: https://matrix.6b6t.me'
-    - '&7网站: https://www.6b6t.me'
+    - '&7联系: contact@6b6t.com'
+    - '&7讨论: https://matrix.6b6t.com'
+    - '&7网站: https://www.6b6t.com'
     - '&7这些是 6b6t 的唯一官方网站和联系方式'
     - ''
 TpsMessage:
@@ -203,8 +203,8 @@ TpsMessage:
 tps_failed: '&c您没有被允许查询TPS'
 
 announcements:
-  - "%prefix% &7>>&r&8 访问 <red><hover:show_text:'<gray>点击打开链接'><click:open_url:'https://votefor.6b6t.me'>https://votefor.6b6t.me</click></hover></red> <dark_gray>并投票以免费获得2个额外的渲染距离和5个额外的家</dark_gray>"
-  - "%prefix% &7>>&r&8 捐赠支持 6b6t 在 <red><hover:show_text:'<gray>点击打开链接'><click:open_url:'https://donate.6b6t.me'>https://donate.6b6t.me</click></hover></red>"
+  - "%prefix% &7>>&r&8 访问 <red><hover:show_text:'<gray>点击打开链接'><click:open_url:'https://votefor.6b6t.com'>https://votefor.6b6t.com</click></hover></red> <dark_gray>并投票以免费获得2个额外的渲染距离和5个额外的家</dark_gray>"
+  - "%prefix% &7>>&r&8 捐赠支持 6b6t 在 <red><hover:show_text:'<gray>点击打开链接'><click:open_url:'https://donate.6b6t.com'>https://donate.6b6t.com</click></hover></red>"
 
 # Death messages
 global-pvp-death-messages:

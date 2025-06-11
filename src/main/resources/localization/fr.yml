@@ -55,7 +55,7 @@ message_auto_translated: "Ce message a été traduit automatiquement.\n\nTexte o
 welcome_message: "&3Bienvenue sur 6b6t"
 vote_announcement: "&c%s &8a voté pour %prefix% &8et a reçu gratuitement /nc 2 distances de rendu supplémentaires et 5 maisons supplémentaires"
 vote_thanks: "&8Merci d'avoir voté pour %prefix% &8vous avez reçu gratuitement /nc 2 distances de rendu supplémentaires et 5 maisons supplémentaires"
-vote_info: "&8Vous pouvez voter pour %prefix% &8sur &chttps://votefor.6b6t.me"
+vote_info: "&8Vous pouvez voter pour %prefix% &8sur &chttps://votefor.6b6t.com"
 tpa_syntax: "&cVeuillez inclure un joueur pour tpa. /tpa <player>"
 tpa_player_not_online: "&cLe joueur %s n'est pas en ligne"
 tpa_no_request_found: "&cAucune demande de TPA trouvée"
@@ -139,7 +139,7 @@ table_invalid_type: "&cType de table invalide. Utilisez la complétion automatiq
 # Messages complexes
 HelpMessage:
   - '&1--------------------------------------'
-  - '&8Visitez &chttps://www.6b6t.me/terms &8pour lire les règles'
+  - '&8Visitez &chttps://www.6b6t.com/terms &8pour lire les règles'
   - '&1--------------Commandes----------------'
   - '&c/tpa &8pour vous téléporter à un autre joueur'
   - '&c/tpahere &8pour téléporter un joueur à votre emplacement'
@@ -168,30 +168,30 @@ HelpMessage:
   - '&c/tpsinfo &8pour vérifier les ticks par seconde du serveur'
   - '&1-------------Réservé aux votants---------------'
   - '&c/nc &8pour définir la couleur du nom'
-  - '&8Visitez &chttps://votefor.6b6t.me &8pour voter'
+  - '&8Visitez &chttps://votefor.6b6t.com &8pour voter'
   - '&1------------Réservé aux donateurs--------------'
   - '&c/ic &8pour définir la couleur de l`item'
   - '&c/rename &8pour renommer un item'
   - '&c/seen &8pour voir quand un joueur s`est connecté pour la dernière fois'
   - '&c/echest &8pour ouvrir votre coffre de l`ender'
   - '&c/nick &8pour définir un pseudonyme'
-  - '&8Visitez &chttps://donate.6b6t.me &8pour faire un don'
+  - '&8Visitez &chttps://donate.6b6t.com &8pour faire un don'
   - '&1--------------------------------------'
 TabList:
   Header:
     - ''
     - '&9&l8builders&7&l8tools'
     - ''
-    - '&r&c&oVous aimez 6b6t.me ? Pensez à faire un don à https://donate.6b6t.me'
+    - '&r&c&oVous aimez 6b6t.com ? Pensez à faire un don à https://donate.6b6t.com'
     - ''
 
   Footer:
   - ''
   - '&7tps:&r %tps% &7ping: &r%ping% &7joueurs: &f%players% &7temps de fonctionnement: &r%uptime%'
   - ''
-  - '&7Contact: contact@6b6t.me'
-  - '&7Discussion: https://matrix.6b6t.me'
-  - '&7Site Web: https://www.6b6t.me'
+  - '&7Contact: contact@6b6t.com'
+  - '&7Discussion: https://matrix.6b6t.com'
+  - '&7Site Web: https://www.6b6t.com'
   - '&7Ce sont les seuls sites et contacts officiels de 6b6t'
   - ''
 TpsMessage:
@@ -203,8 +203,8 @@ TpsMessage:
 tps_failed: "&cVous n'êtes pas autorisé à vérifier le TPS"
 
 announcements:
-  - "%prefix% &7>>&r&8 Visitez <red><hover:show_text:'<gray>Cliquez pour ouvrir le lien'><click:open_url:'https://votefor.6b6t.me'>https://votefor.6b6t.me</click></hover></red> <dark_gray>et votez pour recevoir 2 distances de rendu supplémentaires et 5 homes supplémentaires gratuitement</dark_gray>"
-  - "%prefix% &7>>&r&8 Faites un don pour soutenir 6b6t à <red><hover:show_text:'<gray>Cliquez pour ouvrir le lien'><click:open_url:'https://donate.6b6t.me'>https://donate.6b6t.me</click></hover></red>"
+  - "%prefix% &7>>&r&8 Visitez <red><hover:show_text:'<gray>Cliquez pour ouvrir le lien'><click:open_url:'https://votefor.6b6t.com'>https://votefor.6b6t.com</click></hover></red> <dark_gray>et votez pour recevoir 2 distances de rendu supplémentaires et 5 homes supplémentaires gratuitement</dark_gray>"
+  - "%prefix% &7>>&r&8 Faites un don pour soutenir 6b6t à <red><hover:show_text:'<gray>Cliquez pour ouvrir le lien'><click:open_url:'https://donate.6b6t.com'>https://donate.6b6t.com</click></hover></red>"
 
 # Death messages
 global-pvp-death-messages:

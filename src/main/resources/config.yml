@@ -166,8 +166,8 @@ Patch:
     StrictMaxVLS: 70 #How many redstone operations per second can happen in strict mode
     RegularMaxVLS: 20000 #How many redstone operations per second can happen in regular mode
 Commands:
-  Discord: '&3Join us on discord at&r&a https://discord.6b6t.me'
-  Matrix: '&3Join us on matrix at&r&a https://matrix.6b6t.me'
+  Discord: '&3Join us on discord at&r&a https://discord.6b6t.com'
+  Matrix: '&3Join us on matrix at&r&a https://matrix.6b6t.com'
 OpUsersWhiteList:
   - 'Leee'
   - 'cubebuilder_'

@@ -55,7 +55,7 @@ message_auto_translated: "Bu mesaj otomatik olarak çevrilmiştir.\n\nOrijinal M
 welcome_message: "&36b6t'ye hoş geldiniz"
 vote_announcement: "&c%s %prefix% için oy kullandı &8ve ücretsiz /nc 2 ekstra render mesafesi ve 5 ekstra ev aldı"
 vote_thanks: "%prefix%'ye oy kullandığınız için teşekkürler, ücretsiz /nc 2 ekstra render mesafesi ve 5 ekstra ev alındı"
-vote_info: "%prefix% için oy verebilirsiniz &chttps://votefor.6b6t.me"
+vote_info: "%prefix% için oy verebilirsiniz &chttps://votefor.6b6t.com"
 tpa_syntax: "&cLütfen bir oyuncu belirtin. /tpa <oyuncu>"
 tpa_player_not_online: "&c%s oyuncusu çevrimdışı"
 tpa_no_request_found: "&cTPA isteği bulunamadı"
@@ -136,7 +136,7 @@ table_invalid_type: "&cGeçersiz tablo türü. Geçerli seçenekleri görmek iç
 #Complex messages
 HelpMessage:
   - '&1--------------------------------------'
-  - '&8Kuralları okumak için &chttps://www.6b6t.me/terms &8adresini ziyaret et'
+  - '&8Kuralları okumak için &chttps://www.6b6t.com/terms &8adresini ziyaret et'
   - '&1--------------Komutlar----------------'
   - '&c/tpa &8başka bir oyuncuya ışınlanmak için'
   - '&c/tpahere &8bir oyuncuyu kendi konumuna ışınlamak için'
@@ -165,14 +165,14 @@ HelpMessage:
   - '&c/tpsinfo &8sunucu tıklama sayısını kontrol etmek için'
   - '&1-------------Sadece Oy Verenler---------------'
   - '&c/nc &8isim rengini ayarlamak için'
-  - '&8Oy vermek için &chttps://votefor.6b6t.me &8adresini ziyaret et'
+  - '&8Oy vermek için &chttps://votefor.6b6t.com &8adresini ziyaret et'
   - '&1------------Sadece Bağışcılar--------------'
   - '&c/ic &8eşya rengini ayarlamak için'
   - '&c/rename &8bir eşyayı yeniden adlandırmak için'
   - '&c/seen &8bir oyuncunun en son ne zaman giriş yaptığını görmek için'
   - '&c/echest &8ender chestini açmak için'
   - '&c/nick &8bir takma ad ayarlamak için'
-  - '&8Bağış yapmak için &chttps://donate.6b6t.me &8adresini ziyaret et'
+  - '&8Bağış yapmak için &chttps://donate.6b6t.com &8adresini ziyaret et'
   - '&1--------------------------------------'
 
 TabList:
@@ -180,16 +180,16 @@ TabList:
     - ''
     - '&98builders&78tools'
     - ''
-    - "&86b6t.me'den memnun musun? Bağışta bulunmak için https://donate.6b6t.me adresini ziyaret et"
+    - "&86b6t.com'den memnun musun? Bağışta bulunmak için https://donate.6b6t.com adresini ziyaret et"
     - ''
   
   Footer:
     - ''
     - '&7tps:&r %tps% &7ping: &r%ping% &7oyuncular: &f%players% &7çalışma süresi: &r%uptime%'
     - ''
-    - '&7İletişim: contact@6b6t.me'
-    - '&7Tartışma: https://matrix.6b6t.me'
-    - '&7Web Sitesi: https://www.6b6t.me'
+    - '&7İletişim: contact@6b6t.com'
+    - '&7Tartışma: https://matrix.6b6t.com'
+    - '&7Web Sitesi: https://www.6b6t.com'
     - '&7Bu resmi 6b6t web siteleri ve iletişimleri'
     - ''
 TpsMessage:
@@ -201,8 +201,8 @@ TpsMessage:
 tps_failed: '&cTPS kontrol etmek için yetkiniz yok'
 
 announcements:
-  - '%prefix% &7>>&r&8 Oy vermek için &chttps://votefor.6b6t.me &6adresini ziyaret et ve ücretsiz /nc 2 ekstra render mesafesi ve 5 ekstra ev al'
-  - "%prefix% &7>>&r&8 6b6t'yi desteklemek için &chttps://donate.6b6t.me &8adresinden bağış yap"
+  - '%prefix% &7>>&r&8 Oy vermek için &chttps://votefor.6b6t.com &6adresini ziyaret et ve ücretsiz /nc 2 ekstra render mesafesi ve 5 ekstra ev al'
+  - "%prefix% &7>>&r&8 6b6t'yi desteklemek için &chttps://donate.6b6t.com &8adresinden bağış yap"
 
 # Death messages
 global-pvp-death-messages:
