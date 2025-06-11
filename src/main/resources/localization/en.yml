@@ -138,8 +138,6 @@ table_invalid_type: "&cInvalid table type. Use tab-complete to see valid options
 
 #Complex messages
 HelpMessage:
-  - '&1--------------------------------------'
-  - '&8Visit &chttps://www.6b6t.com/terms &8to read the rules'
   - '&1--------------Commands----------------'
   - '&c/tpa &8to teleport to another player'
   - '&c/tpahere &8to teleport a player to your location'
@@ -166,16 +164,6 @@ HelpMessage:
   - '&c/pvp &8to connect to the 6b6t PVP server'
   - '&c/lobby &8to connect to the lobby'
   - '&c/tpsinfo &8to check the server ticks per second'
-  - '&1-------------Voters Only---------------'
-  - '&c/nc &8to set the name color'
-  - '&8Visit &chttps://votefor.6b6t.com &8to vote'
-  - '&1------------Donors Only--------------'
-  - '&c/ic &8to set the item color'
-  - '&c/rename &8to rename an item'
-  - '&c/seen &8to see when a player last logged in'
-  - '&c/echest &8to open your ender chest'
-  - '&c/nick &8to set a nickname'
-  - '&8Visit &chttps://donate.6b6t.com &8to donate'
   - '&1--------------------------------------'
   -
 TabList:
