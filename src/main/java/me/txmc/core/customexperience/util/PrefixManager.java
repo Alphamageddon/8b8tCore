@@ -24,25 +24,13 @@ public class PrefixManager {
     private static final List<String> PREFIX_HIERARCHY = Arrays.asList(
             "8b8tcore.prefix.dev",
             "*",
-            "8b8tcore.prefix.bot",
-            "8b8tcore.prefix.donator6",
-            "8b8tcore.prefix.donator5",
-            "8b8tcore.prefix.donator4",
-            "8b8tcore.prefix.donator3",
-            "8b8tcore.prefix.donator2",
-            "8b8tcore.prefix.donator1"
+            "8b8tcore.prefix.bot"
     );
 
     static {
         PREFIXES.put("8b8tcore.prefix.dev", "<gradient:#5555FF:#9492F5:#5555FF:%s>[DEV<green>✔</green>]</gradient>");
         PREFIXES.put("*", "<gradient:#BA3FFC:#D9ADFD:#BA3FFC:%s>[OWNER<green>✔</green>]</gradient>");
         PREFIXES.put("8b8tcore.prefix.bot", "<gradient:#00AA00:#6ef385:#00AA00:%s>[BOT]</gradient>");
-        PREFIXES.put("8b8tcore.prefix.donator6", "<gradient:#9145b0:#ceafcf:#9145b0:%s>[Ultra]</gradient>");
-        PREFIXES.put("8b8tcore.prefix.donator5", "<gradient:#a18800:#ecc700:#a18800:%s>[Pro+]</gradient>");
-        PREFIXES.put("8b8tcore.prefix.donator4", "<gradient:#ef9a98:#f7cac9:#ef9a98:%s>[Pro]</gradient>");
-        PREFIXES.put("8b8tcore.prefix.donator3", "<gradient:#999B9B:#ced5d5:#999B9B:%s>[Mini]</gradient>");
-        PREFIXES.put("8b8tcore.prefix.donator2", "<gradient:#CD7F32:#fc9937:#CD7F32:%s>[SE]</gradient>");
-        PREFIXES.put("8b8tcore.prefix.donator1", "<gradient:#20252c:#62666c:#20252c:%s>[Donor]</gradient>");
     }
 
     public String getPrefix(Player player) {

@@ -52,10 +52,10 @@ leave_message: "&c▼&8 玩家 &7%s&r&8 离开了。"
 kick_message: "&7%s 被踢出，原因: \"%s\""
 could_not_translate_message: "由于 %s，无法翻译消息"
 message_auto_translated: "此消息已被自动翻译。\n\n原文: %s"
-welcome_message: "&3欢迎来到 8b8t"
+welcome_message: "&3欢迎来到 6b6t"
 vote_announcement: "&c%s &8投票支持 %prefix% &8并免费获得 /nc 2 个额外渲染距离和 5 个额外住宅"
 vote_thanks: "&8感谢您投票支持%prefix% &8您已获得免费/nc 2 额外渲染距离和 5 额外住宅"
-vote_info: "&8您可以在 &chttps://votefor.8b8t.me &8为%prefix% 投票"
+vote_info: "&8您可以在 &chttps://votefor.6b6t.me &8为%prefix% 投票"
 tpa_syntax: "&c请包括一个玩家以进行tpa。/tpa <玩家>"
 tpa_player_not_online: "&c玩家 %s 不在线"
 tpa_no_request_found: "&c未找到TPA请求"
@@ -90,7 +90,7 @@ repair_no_item: "&c你必须手上有一个物品来修理。"
 repair_not_repairable: "&c此物品无法修理。"
 repair_all_success: "&3你库存中的所有物品已成功修复！"
 nick_success: "&3完成！现在你的昵称是 &3%s&r&3。"
-nick_no_permission: "&c此命令仅适用于 DONOR5 &3https://donate.8b8t.me/&c。"
+nick_no_permission: "&cYou do not have permission to use this command."
 nick_no_name_provided: "&c你必须输入一个昵称 &3/nick <nickname>&c。"
 nick_user_protection: "&c昵称必须与你的用户名相同 &3/nick <nickname>&c。"
 nc_success: "&3完成！现在你的昵称是 &3%s&r&3。"
@@ -98,13 +98,13 @@ nc_no_permission: "&c你必须投票才能使用此命令。"
 nc_invalid_color: "&c你只能使用列表中的样式 &3/nc <color> <styles...>&c。"
 nc_usage: "&c你必须至少输入颜色 &3/nc <color> <styles...>&c。"
 ic_success: "&3完成！现在你的物品名为 &3%s&r&3。"
-ic_no_permission: "&c此命令仅适用于 DONOR4 &3https://donate.8b8t.me/&c。"
+ic_no_permission: "&cYou do not have permission to use this command."
 ic_invalid_color: "&c你只能使用列表中的样式 &3/ic <color> <styles...>&c。"
 ic_invalid_item: "&c此物品无效。"
 ic_no_item: "&c你必须手上有物品才能更改颜色。"
 ic_usage: "&c你必须至少输入颜色 &3/ic <color> <styles...>&c。"
 rename_success: "&3完成！现在你的物品名为 &3%s&r&3。"
-rename_no_permission: "&c此命令仅适用于 DONOR5 &3https://donate.8b8t.me/&c。"
+rename_no_permission: "&cYou do not have permission to use this command."
 rename_invalid_item: "&c此物品无效。"
 rename_no_item: "&c你必须手上有物品才能更改颜色。"
 rename_no_name_provided: "&c你必须输入一个名称 &3/rename <item name>&c。"
@@ -139,7 +139,7 @@ table_invalid_type: "&c无效的表格类型。请使用 tab 补全查看有效�
 # 复杂信息
 HelpMessage:
   - '&1--------------------------------------'
-  - '&8访问 &chttps://www.8b8t.me/terms &8阅读规则'
+  - '&8访问 &chttps://www.6b6t.me/terms &8阅读规则'
   - '&1--------------命令----------------'
   - '&c/tpa &8将你传送到另一个玩家那里'
   - '&c/tpahere &8将玩家传送到你的当前位置'
@@ -152,9 +152,9 @@ HelpMessage:
   - '&c/delhome &8删除你设置的家'
   - '&c/home &8传送到你设置的家'
   - '&c/skin set &8设置你的皮肤'
-  - '&c/vote &8为8b8t投票'
-  - '&c/discord &8获取8b8t的Discord邀请'
-  - '&c/matrix &8获取 8b8t Matrix 房间的链接'
+  - '&c/vote &8为6b6t投票'
+  - '&c/discord &8获取6b6t的Discord邀请'
+  - '&c/matrix &8获取 6b6t Matrix 房间的链接'
   - '&c/kill &8自杀'
   - '&c/ignore &8忽略其他玩家'
   - '&c/unignore &8取消忽略其他玩家'
@@ -163,36 +163,36 @@ HelpMessage:
   - '&c/changepass &8更改你的密码'
   - '&c/joindate &8查看你和其他玩家的加入日期'
   - '&c/worldstats &8查看世界大小'
-  - '&c/pvp &8连接到8b8t的PVP服务器'
+  - '&c/pvp &8连接到6b6t的PVP服务器'
   - '&c/lobby &8连接到大厅'
   - '&c/tpsinfo &8检查服务器的每秒tick数'
   - '&1-------------仅限投票者---------------'
   - '&c/nc &8设置名字颜色'
-  - '&8访问 &chttps://votefor.8b8t.me &8进行投票'
+  - '&8访问 &chttps://votefor.6b6t.me &8进行投票'
   - '&1------------仅限捐赠者--------------'
   - '&c/ic &8设置物品颜色'
   - '&c/rename &8重命名物品'
   - '&c/seen &8查看玩家最后一次上线时间'
   - '&c/echest &8打开你的末影箱'
   - '&c/nick &8设置昵称'
-  - '&8访问 &chttps://donate.8b8t.me &8进行捐赠'
+  - '&8访问 &chttps://donate.6b6t.me &8进行捐赠'
   - '&1--------------------------------------'
 TabList:
   Header:
     - ''
     - '&9&l8builders&7&l8tools'
     - ''
-    - '&r&c&o喜欢 8b8t.me 吗？考虑在 https://donate.8b8t.me 捐款'
+    - '&r&c&o喜欢 6b6t.me 吗？考虑在 https://donate.6b6t.me 捐款'
     - ''
 
   Footer:
     - ''
     - '&7tps:&r %tps% &7ping: &r%ping% &7玩家: &f%players% &7在线时间: &r%uptime%'
     - ''
-    - '&7联系: contact@8b8t.me'
-    - '&7讨论: https://matrix.8b8t.me'
-    - '&7网站: https://www.8b8t.me'
-    - '&7这些是 8b8t 的唯一官方网站和联系方式'
+    - '&7联系: contact@6b6t.me'
+    - '&7讨论: https://matrix.6b6t.me'
+    - '&7网站: https://www.6b6t.me'
+    - '&7这些是 6b6t 的唯一官方网站和联系方式'
     - ''
 TpsMessage:
   - '&1------------TPS信息------------'
@@ -203,8 +203,8 @@ TpsMessage:
 tps_failed: '&c您没有被允许查询TPS'
 
 announcements:
-  - "%prefix% &7>>&r&8 访问 <red><hover:show_text:'<gray>点击打开链接'><click:open_url:'https://votefor.8b8t.me'>https://votefor.8b8t.me</click></hover></red> <dark_gray>并投票以免费获得2个额外的渲染距离和5个额外的家</dark_gray>"
-  - "%prefix% &7>>&r&8 捐赠支持 8b8t 在 <red><hover:show_text:'<gray>点击打开链接'><click:open_url:'https://donate.8b8t.me'>https://donate.8b8t.me</click></hover></red>"
+  - "%prefix% &7>>&r&8 访问 <red><hover:show_text:'<gray>点击打开链接'><click:open_url:'https://votefor.6b6t.me'>https://votefor.6b6t.me</click></hover></red> <dark_gray>并投票以免费获得2个额外的渲染距离和5个额外的家</dark_gray>"
+  - "%prefix% &7>>&r&8 捐赠支持 6b6t 在 <red><hover:show_text:'<gray>点击打开链接'><click:open_url:'https://donate.6b6t.me'>https://donate.6b6t.me</click></hover></red>"
 
 # Death messages
 global-pvp-death-messages:

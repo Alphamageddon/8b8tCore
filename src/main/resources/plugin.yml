@@ -2,7 +2,7 @@ name: 8b8tCore
 main: me.txmc.core.Main
 version: 1.4.7
 author: 254n_m, agarciacorte
-description: All the bullshit for 8b8t
+description: All the bullshit for 6b6t
 api-version: 1.20
 folia-supported: true
 softdepend:
@@ -105,24 +105,6 @@ permissions:
     default: false
   8b8tcore.prefix.bot:
     description: Nametag Prefix for VERIFIED BOTS
-    default: false
-  8b8tcore.prefix.donator1:
-    description: Nametag Prefix for DONATOR 1
-    default: false
-  8b8tcore.prefix.donator2:
-    description: Nametag Prefix for DONATOR 2
-    default: false
-  8b8tcore.prefix.donator3:
-    description: Nametag Prefix for DONATOR 3
-    default: false
-  8b8tcore.prefix.donator4:
-    description: Nametag Prefix for DONATOR 4
-    default: false
-  8b8tcore.prefix.donator5:
-    description: Nametag Prefix for DONATOR 5
-    default: false
-  8b8tcore.prefix.donator6:
-    description: Nametag Prefix for DONATOR 6
     default: false
   8b8tcore.prefix.dev:
     description: Nametag Prefix for DEV

@@ -55,7 +55,7 @@ public class Main extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage("\u00A79  \\___/  |_.__/   \u00A79\\___/   \\__|  \u00A77\\____|  \\___/  |_|     \\___|");
         Bukkit.getConsoleSender().sendMessage("");
         Bukkit.getConsoleSender().sendMessage("\u00A78+============================================================+");
-        Bukkit.getConsoleSender().sendMessage("\u00A79  8b\u00A798t\u00A77Core \u00A75a Folia Core Plugin for 8b8t and Anarchy Servers   ");
+        Bukkit.getConsoleSender().sendMessage("\u00A79  8b\u00A798t\u00A77Core \u00A75a Folia Core Plugin for 6b6t and Anarchy Servers   ");
         Bukkit.getConsoleSender().sendMessage("\u00A78+============================================================+");
         Bukkit.getConsoleSender().sendMessage("\u00A72 v" + getDescription().getVersion() + "                              \u00A73by 254n_m & agarciacorte");
         Bukkit.getConsoleSender().sendMessage("");
