@@ -55,7 +55,7 @@ message_auto_translated: "このメッセージは自動的に翻訳されまし
 welcome_message: "&36b6tへようこそ"
 vote_announcement: "&c%s &8は%prefix% &8に投票し、無料の/nc 2つの追加レンダリング距離と5つの追加住宅が与えられました"
 vote_thanks: "&8%prefix% に投票していただきありがとうございます。&8 追加のレンダリング距離 2 つと追加の住宅 5 つが無料で付与されました。"
-vote_info: "&8%prefix% &8への投票は &chttps://votefor.6b6t.me でできます"
+vote_info: "&8%prefix% &8への投票は &chttps://votefor.6b6t.com でできます"
 tpa_syntax: "&cテレポートするプレイヤーを指定してください。 /tpa <player>"
 tpa_player_not_online: "&cプレイヤー %s はオンラインではありません"
 tpa_no_request_found: "&cTPAリクエストが見つかりません"
@@ -139,7 +139,7 @@ table_invalid_type: "&c無効なテーブルタイプです。有効なオプシ
 #Complex messages
 HelpMessage:
   - '&1--------------------------------------'
-  - '&8ルールを読むために &chttps://www.6b6t.me/terms &8を訪問してください'
+  - '&8ルールを読むために &chttps://www.6b6t.com/terms &8を訪問してください'
   - '&1--------------コマンド----------------'
   - '&c/tpa &8他のプレイヤーにテレポートします'
   - '&c/tpahere &8プレイヤーを自分の位置にテレポートします'
@@ -168,30 +168,30 @@ HelpMessage:
   - '&c/tpsinfo &8サーバーのTPSを確認します'
   - '&1-------------投票者のみ---------------'
   - '&c/nc &8名前の色を設定します'
-  - '&8投票するには &chttps://votefor.6b6t.me &8を訪問してください'
+  - '&8投票するには &chttps://votefor.6b6t.com &8を訪問してください'
   - '&1------------寄付者のみ--------------'
   - '&c/ic &8アイテムの色を設定します'
   - '&c/rename &8アイテムの名前を変更します'
   - '&c/seen &8プレイヤーが最後にログインした時間を表示します'
   - '&c/echest &8自分のエンダーチェストを開きます'
   - '&c/nick &8ニックネームを設定します'
-  - '&8寄付するには &chttps://donate.6b6t.me &8を訪問してください'
+  - '&8寄付するには &chttps://donate.6b6t.com &8を訪問してください'
   - '&1--------------------------------------'
 TabList:
   Header:
     - ''
     - '&9&l8builders&7&l8tools'
     - ''
-    - '&r&c&o6b6t.me を楽しんでいますか？寄付は https://donate.6b6t.me でどうぞ'
+    - '&r&c&o6b6t.com を楽しんでいますか？寄付は https://donate.6b6t.com でどうぞ'
     - ''
 
   Footer:
     - ''
     - '&7tps:&r %tps% &7ping: &r%ping% &7players: &f%players% &7uptime: &r%uptime%'
     - ''
-    - '&7連絡先: contact@6b6t.me'
-    - '&7ディスカッション: https://matrix.6b6t.me'
-    - '&7ウェブサイト: https://www.6b6t.me'
+    - '&7連絡先: contact@6b6t.com'
+    - '&7ディスカッション: https://matrix.6b6t.com'
+    - '&7ウェブサイト: https://www.6b6t.com'
     - '&7これが公式の6b6tウェブサイトと連絡先です'
     - ''
 TpsMessage:
@@ -203,8 +203,8 @@ TpsMessage:
 tps_failed: '&cTPSを確認する権限がありません'
 
 announcements:
-  - "%prefix% &7>>&r&8 <red><hover:show_text:'<gray>リンクを開くにはクリック'><click:open_url:'https://votefor.6b6t.me'>https://votefor.6b6t.me</click></hover></red> にアクセスして、2つの追加レンダリング距離と5つの無料のホームを受け取るために投票しましょう</dark_gray>"
-  - "%prefix% &7>>&r&8 6b6tをサポートするために<red><hover:show_text:'<gray>リンクを開くにはクリック'><click:open_url:'https://donate.6b6t.me'>https://donate.6b6t.me</click></hover></red>で寄付しましょう"
+  - "%prefix% &7>>&r&8 <red><hover:show_text:'<gray>リンクを開くにはクリック'><click:open_url:'https://votefor.6b6t.com'>https://votefor.6b6t.com</click></hover></red> にアクセスして、2つの追加レンダリング距離と5つの無料のホームを受け取るために投票しましょう</dark_gray>"
+  - "%prefix% &7>>&r&8 6b6tをサポートするために<red><hover:show_text:'<gray>リンクを開くにはクリック'><click:open_url:'https://donate.6b6t.com'>https://donate.6b6t.com</click></hover></red>で寄付しましょう"
 
 # Death messages
 global-pvp-death-messages:
